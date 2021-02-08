@@ -1,6 +1,6 @@
 <h1 align="center">Dynamite SmS Attacker</h1>
-<h2 align="center">Developed By MRTech</h2>
-<h3 align="center">Evilz Team</h3>
+<h3 align="center">Developed By MRTech</h2>
+<h4 align="center">Evilz Team</h3>
 <p align="center">For Sri Lankan Numbers Only.</p><br>
 
 
