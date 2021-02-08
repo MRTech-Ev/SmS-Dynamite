@@ -24,7 +24,7 @@ pip3 install -r requirements.txt
 python3 smsdynamite.py
 ```
 
-* For Turmux:
+* For Termux:
 ```
 apt update && apt upgrade -y
 apt install git python -y
