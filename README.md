@@ -8,8 +8,7 @@
 **Tested OS:**<br>
 Termux App For Android<br>
 Ubuntu 16.04<br>
-**Supported OS:**<br>
-Since It's A Python Script You Can Run It In Other Platforms Too. But It Has To Be Edited For Suit The OS<br>
+
 
 **Run:** <br>
 
