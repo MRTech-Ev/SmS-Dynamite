@@ -165,7 +165,7 @@ if cho==1:
 																count+=1
 																prsent(count,num)
 																if count<int(times):
-																	upay(num,delay)
+																	hutcliq(num,delay)
 																	count+=1
 																	prsent(count,num)
 																	if count<int(times):
@@ -232,7 +232,7 @@ if cho==1:
 				youcab(num,delay)
 				count+=1
 				prsent(count,num)
-				upay(num,delay)
+				hutcliq(num,delay)
 				count+=1
 				prsent(count,num)
 				nanasa(num,delay)
@@ -307,7 +307,7 @@ if cho==1:
 																	count+=1
 																	prsent(count,num)
 																	if count<int(times):
-																		upay(num,delay)
+																		hutcliq(num,delay)
 																		count+=1
 																		prsent(count,num)
 																		if count<int(times):
@@ -384,7 +384,7 @@ if cho==1:
 				youcab(num,delay)
 				count+=1
 				prsent(count,num)
-				upay(num,delay)
+				hutcliq(num,delay)
 				count+=1
 				prsent(count,num)
 				nanasa(num,delay)
@@ -459,7 +459,7 @@ if cho==1:
   																count+=1
   																prsent(count,num)
   																if count<int(times):
-  																	upay(num,delay)
+  																	hutcliq(num,delay)
   																	count+=1
   																	prsent(count,num)
   																	if count<int(times):
@@ -529,7 +529,7 @@ if cho==1:
 				youcab(num,delay)
 				count+=1
 				prsent(count,num)
-				upay(num,delay)
+				hutcliq(num,delay)
 				count+=1
 				prsent(count,num)
 				nanasa(num,delay)
@@ -596,7 +596,7 @@ if cho==1:
   														count+=1
   														prsent(count,num)
   														if count<int(times):
-  															upay(num,delay)
+  															hutcliq(num,delay)
   															count+=1
   															prsent(count,num)
   															if count<int(times):
@@ -657,7 +657,7 @@ if cho==1:
 				youcab(num,delay)
 				count+=1
 				prsent(count,num)
-				upay(num,delay)
+				hutcliq(num,delay)
 				count+=1
 				prsent(count,num)
 				slmat(num,count)

