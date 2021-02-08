@@ -1,7 +1,7 @@
 <h1 align="center">Dynamite SmS Attacker</h1>
 <h3 align="center">Developed By MRTech</h2>
 <h4 align="center">Evilz Team</h3>
-<a href="https://t.me/joinchat/Vg1seEHN-axqgO2p" align="center">Telegram</a>
+<h3 align="center"><a href="https://t.me/joinchat/Vg1seEHN-axqgO2p">Telegram</a></h3>
 <p align="center">For Sri Lankan Numbers Only.</p><br>
 
 
