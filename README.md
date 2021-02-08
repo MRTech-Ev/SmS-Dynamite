@@ -5,14 +5,15 @@
 
 
 ## OS Support<br>
+
 **Tested OS:**<br>
-Termux App For Android<br>
-Ubuntu 16.04<br>
+-Termux App For Android<br>
+-Ubuntu 16.04<br>
 
 
 **Run:** <br>
 
-For Ubuntu 16.04:<br>
+* For Ubuntu 16.04:<br>
 ```
 sudo apt-get update
 sudo apt-get -y upgrade
@@ -23,7 +24,7 @@ pip3 install -r requirements.txt
 python3 smsdynamite.py
 ```
 
-For Turmux:
+* For Turmux:
 ```
 apt update && apt upgrade -y
 apt install git python -y
